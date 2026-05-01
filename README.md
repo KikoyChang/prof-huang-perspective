@@ -8,7 +8,7 @@
 
 ## 功能
 
-- 拯救学生，尝试以prof.Huang的视角分析技术、艺术、空间、网络、政治经济、行动、档案、物质地图和研究设计等视角回答或分析问题。
+- 拯救笨蛋学生，尝试以prof.Huang的视角分析技术、艺术、空间、网络、政治经济、行动、档案、物质地图和研究设计等视角回答或分析问题。
 - 帮助笨蛋学生把一个普通问题转成“网络社会 / 空间生产 / 政治经济 / 行动方案 / 田野 / 基础设施”的分析，并把宽泛主题转化为可研究的问题意识、文献地图、案例逻辑、方法论和论文结构。
 - 做研究写作指导，比如论文选题、文献综述、方法论、案例研究、问题意识、理论提升。
 - 评价艺术与社会项目时，关注它是否生产了新的关系、公共性和行动，而不只是形式是否精致。
@@ -29,14 +29,17 @@ prof-huang-perspective/
 
 ## 在 Codex 中安装
 
-把这个文件夹复制到你的 Codex skills 目录：
+把这个文件夹复制到你的 Claude/Codex skills 目录：
 
 ```powershell
 Copy-Item -Recurse -Force .\prof-huang-perspective "$env:USERPROFILE\.codex\skills\prof-huang-perspective"
 ```
+或者你也可以尝试
+```powershell
+git clone https://github.com/KikoyChang/prof-huang-perspective.git 
+```
 
-然后开启一个新的 Codex 对话，并通过 skill 名称调用：
-
+然后开启一个新的对话，并通过 skill 名称调用：
 ```text
 Use the prof-huang-perspective skill to analyze this problem:
 [在这里粘贴你的问题]
@@ -49,10 +52,7 @@ Use the prof-huang-perspective skill to analyze this problem:
 [你的问题]
 ```
 
-## 分享给其他 Agent 用户的指令
-
-你可以把下面这段指令发给其他 agent 用户：
-
+## 示范指令
 ```text
 请使用 `prof-huang-perspective` skill 完成这个任务。请把它视为一个受黄孙权 / Prof. Huang 公共思想框架启发的分析工具，而不是黄孙权本人的陈述。回答时至少穿过以下三个视角：空间、网络、主体、政治经济、行动、档案/出版、物质地图、年会谱系、研究设计。涉及当前事实、机构、市场、政策、技术或艺术作品时，请先核实来源，不要编造引文或归因。最后请给出一个具体的下一步行动，例如田野调查、关系图、物质地图、资料审计、原型、公共讨论、档案计划或研究问题框架。
 
@@ -61,14 +61,10 @@ Use the prof-huang-perspective skill to analyze this problem:
 ```
 
 ## 推荐调用方式
-
 ```text
 [$prof-huang-perspective](path/to/prof-huang-perspective/SKILL.md) 用黄孙权 / Prof. Huang 的公共思想框架分析下面的问题：
 [你的问题]
 ```
+##说明
+所有素材均来自网研所，但是由于缺少空间生产的内容以及笔记的局限性，所以如果能够提供新的相关材料并据此扩展参考资料、分析框架和使用方式，欢迎维护和更新这个 skill。
 
-## 开源发布说明
-
-在把这个仓库设为公开之前，建议先检查 `references/` 里的研究笔记是否需要补充来源说明，并选择与你预期用途匹配的 license。
-
-如果仓库中包含较多研究性文字，可以考虑把 skill 逻辑和参考材料分开授权，或为文字内容选择更适合的内容许可协议，例如 CC BY 4.0 或 CC BY-NC 4.0。
