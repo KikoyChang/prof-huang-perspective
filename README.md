@@ -1,10 +1,10 @@
 # Prof. Huang Perspective Skill
 
-这个仓库打包了一个 Codex Skill，用于从黄孙权 / Prof. Huang 相关的公共思想框架出发，辅助分析、批评和规划问题。
+这个仓库打包了一个 Codex Skill，用于从黄孙权 / Prof. Huang 相关的公共思想框架出发，辅助分析、批评和规划问题。（Claude code 和其他的agent理论上也可以学习）
 
 这个 skill 适用于网络社会、空间生产、社会性艺术、田野行动、出版与档案基础设施、AI 供应链、协议政治、Web3/P2P、研究设计和学术写作方法等主题。
 
-它不声称代表黄孙权本人观点，而是一个基于研究所的课程框架材料、网络社会研究所网站以及heterotopias、网络公开材料和研究笔记整理出来的结构化思考工具。
+它不代表Prof. Huang本人观点，而是一个基于研究所的课程框架材料、网络社会研究所网站以及heterotopias、网络公开材料和研究笔记整理出来的结构化思考工具。
 
 ## 功能
 
@@ -68,3 +68,9 @@ Use the prof-huang-perspective skill to analyze this problem:
 ## 说明
 所有素材均来自网研所，但是由于缺少空间生产的内容以及笔记的局限性，所以如果能够提供新的相关材料并据此扩展参考资料、分析框架和使用方式，欢迎维护和更新这个 skill。
 
+## 致谢
+本skill的蒸馏灵感源于女娲skill（[nuwa-skill）](https://github.com/alchaincyf/nuwa-skill) 
+把人的思维框架变成可运行的代码。
+不是让 AI 模仿某个人说话，而是提炼他们 怎么想问题。
+
+**同时感谢prof.Huang的鼓励**
