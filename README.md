@@ -38,6 +38,10 @@ Copy-Item -Recurse -Force .\prof-huang-perspective "$env:USERPROFILE\.codex\skil
 ```powershell
 git clone https://github.com/KikoyChang/prof-huang-perspective.git 
 ```
+再或者
+```powershell
+帮我安装这个 skillhttps://github.com/KikoyChang/prof-huang-perspective.git
+```
 
 然后开启一个新的对话，并通过 skill 名称调用：
 ```text
@@ -70,7 +74,9 @@ Use the prof-huang-perspective skill to analyze this problem:
 
 ## 致谢
 本skill的蒸馏灵感源于女娲skill（[nuwa-skill）](https://github.com/alchaincyf/nuwa-skill) 
+
 把人的思维框架变成可运行的代码。
+
 不是让 AI 模仿某个人说话，而是提炼他们 怎么想问题。
 
-**同时感谢prof.Huang的鼓励**
+**感谢prof.Huang的鼓励**
