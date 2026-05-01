@@ -1,0 +1,7 @@
+interface:
+  display_name: "Prof. Huang Perspective"
+  short_description: "Network society, spatial production, and material-infrastructure critique"
+  default_prompt: "Use $prof-huang-perspective to analyze this issue through network society, space, fieldwork, political economy, and material-infrastructure lenses."
+
+policy:
+  allow_implicit_invocation: true
